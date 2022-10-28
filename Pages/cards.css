@@ -1,0 +1,109 @@
+h2{
+    font-family: 'league_spartan_semiBold';
+    font-size: 2.5em;
+}
+
+h2 + div{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 95%;
+    height: 75%;
+    justify-content: space-evenly;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #262626;
+    height: 80%;
+    width: 25%;
+    border-radius: 5ex;
+    filter: drop-shadow(2ex 1.5ex 2ex rgba(0, 0, 0, 1));
+    text-align: center;
+}
+
+
+h3{
+    margin-bottom: 0;   
+}
+
+.card article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 98%;
+}
+
+article img{
+    height: 50%;
+    width: 95%;
+    border-radius: 5ex;
+    position: relative;
+}
+
+.card article + article{
+    display: none;
+}
+
+.hugeCard{
+    position: absolute;
+    height: 90%;
+    width: 80%;
+    top: 5%;
+    z-index: 99;
+    border-radius: 15ex;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hugeCard h3{
+    font-size: 2em;
+    margin: .5ex;
+}
+
+.hugeCard h3 + article{
+    display: none;
+}
+
+.hugeCard article + article{
+    width: 85%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hugeCard article p{
+    font-size: 1.5em;
+    margin: .5ex;
+}
+
+.hugeCard iframe{
+    height: 62.5%;
+    width: 100%;
+    border-radius: 3ex;
+    border: 0;
+}
+
+.hugeCard a{
+    text-decoration: underline;
+}
+
+.close{
+    display: none;
+    position: absolute;
+    top: 7.5%;
+    left: 82.5%;
+    height: 3.5ex;
+    width: 3.5ex;
+    background-color: red;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 100;
+    text-align: center;
+}

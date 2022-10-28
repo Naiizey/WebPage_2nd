@@ -1,0 +1,44 @@
+main p{
+    font-size: 1.5em;
+    margin: .5ex;
+}
+
+main a{
+    font-family: 'league_spartan_semiBold';
+}
+
+main h2{
+    font-size: 2em;
+    margin: .5ex;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 46%;
+}
+
+article h2{
+    position: relative;
+    left: 15%;
+}
+
+iframe{
+    position: relative;
+    top: 1.5ex;
+    width: 100ex;
+    height: 65ex;
+    border: none;
+    border-radius: 1ex; 
+}
+
+iframe + article p{
+    position: relative;
+    top: 2ex;
+    font-size: 1em;
+}
+
+iframe + article p + p{
+    top: 1ex;
+}

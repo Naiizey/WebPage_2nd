@@ -1,0 +1,94 @@
+main{
+    padding-left: 7.5ex;
+    padding-top: 2ex;
+}
+
+.presentation{
+    display: flex;
+    width: 80%;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 7.5ex;
+}
+
+.presentation img{
+    width: 30ex;
+}
+
+.presentation p{
+    font-size: 1.25em;
+    position: relative;
+    width: 50%;
+    height: 12.5ex;
+    left: 11ex;
+}
+
+h2{
+    font-family: 'league_spartan_semiBold';
+    font-size: 1.75em;
+    align-self: flex-start;
+    position: relative;
+    left: 30%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.formations{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.iutLan, .spsb{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 75%;
+    padding: 2ex;
+}
+
+.iutLan img{
+    height: 19ex;
+    width: 15ex;
+}
+
+.spsb img{
+    height: 15ex;
+    width: 32ex;
+}
+
+.iutLan > article{
+    position: relative;
+}
+
+.spsb > article{
+    position: relative;
+}
+
+.iutLan p, .spsb p{
+    display: inline-block;
+}
+
+article p + p{
+    position: relative;
+    left: 20ex;
+}
+
+.iutLan p + p{
+    left: 33.25ex;
+}
+
+article article *{
+    margin: 1ex;
+}
+
+p a{
+    font-family: 'league_spartan_semiBold';
+}
+
+@media screen and (min-width:1540px){
+    h2{
+        left: 26.25%;
+    }
+}

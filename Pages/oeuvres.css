@@ -1,0 +1,69 @@
+h2{
+    font-family: 'league_spartan_semiBold';
+    font-size: 3em;
+    margin: 0;
+    margin-top: 0;
+}
+
+h3{
+    font-family: 'league_spartan_semiBold';
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 3ex;
+}
+
+.artists{
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
+}
+
+article{
+    font-family: 'league_spartan_semiBold';
+    font-size: 1.25em;
+    display: inline-flex;
+    flex-direction: column;
+    width: 25%;
+    margin: 0;
+    margin-bottom: 4ex;
+}
+
+article > a{
+    height: 7.5ex;
+}
+
+article img{
+    display: inline-block;
+    border-radius: 5ex 5ex 5ex 5ex;
+    width: 20ex;
+}
+
+article li{
+    font-family: 'league_spartan_regular';
+    list-style: none;
+}
+
+h4{
+    font-size: 1.75em;
+    margin: 0;
+}
+
+.Insta{
+    font-size: .5em;
+}
+
+article ul{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 35ex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.instagram-media{
+    max-width: 15ex;
+    max-height: 50ex;
+    margin: 0;
+}

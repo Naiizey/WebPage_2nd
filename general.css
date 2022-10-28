@@ -1,0 +1,41 @@
+@font-face{
+    font-family: 'league_spartan_semiBold';
+    src: url('Fonts/LeagueSpartan/static/woff2/LeagueSpartan-SemiBold.woff2') format('woff2'),
+         url('Fonts/LeagueSpartan/static/woff/LeagueSpartan-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'league_spartan_regular';
+    src: url('Fonts/LeagueSpartan/static/woff2/LeagueSpartan-Regular.woff2') format('woff2'),
+         url('Fonts/LeagueSpartan/static/woff/LeagueSpartan-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{
+    background-color: #262626;
+    font-family: 'league_spartan_regular';
+    color: white;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    position: absolute;
+    top: 13.5ex;
+    left: 15ex;
+    width: 93.6%;
+    height: 86.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2ex;
+}

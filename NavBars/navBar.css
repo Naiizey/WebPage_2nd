@@ -1,0 +1,142 @@
+@keyframes fade_in_show {
+    0% {
+         opacity: 0;
+         transform: scale(0);
+    }
+
+    100% {
+         opacity: 1;
+         transform: scale(1);
+    }
+}
+
+body{
+    margin: 0;
+}
+
+#logoPlace{
+    display: inline-flex;
+    position: relative;
+    background-color: #262626;
+    width: 15ex;
+    height: 18ex;
+    z-index: 99;
+}
+
+.logo{
+    position: relative;
+    height: 10ex;
+    left: 4ex;
+    top: 2ex;
+}
+
+h1{
+    position: relative;
+    font-size: 1.75em;
+    font-family: 'league_spartan_semiBold';
+    left: 4.25ex;
+    top: -.5ex;
+    opacity: 0;
+}
+
+.navBar{
+    position: relative;
+    width: 15ex;
+    height: 100vh;
+    top: -4ex; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.navBar ul{
+    height: 85.5%;
+    position: relative;
+    top: 0ex;
+    list-style: none;
+    padding: 0;
+}
+
+.navBar li{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: flex-start;
+    width: 15ex;
+    height: 8.75ex;
+    margin-bottom: 2ex;
+}
+
+.navBar img{
+    position: relative;
+    height: 2em;
+    top: 1ex;
+}
+
+.navBar span{
+    position: relative;
+    font-size: .75em;
+    top: 1.75ex;
+}
+
+.home > a, .profile > a, .projets > a, .experiences > a, .oeuvres > a, .maquette > a{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.home{
+    position: absolute;
+    z-index: 100;
+}
+
+.oeuvres{
+    top: 17%;
+}
+
+.maquette{
+    top: 34%;
+}
+
+.navBar:hover{
+    width: 30ex;
+    transition: width .3s ease-in-out;
+}
+
+.navBar:hover li{
+    width: 24.9ex;
+    justify-content: space-between;
+    padding-left: 5.1ex;
+    transition: width .3s ease-in-out;
+}
+
+.navBar:hover a{
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.navBar:hover a > span{
+    font-size: 1.25em;
+    margin-left: 2ex;
+    top: 1.5ex;
+    animation: fade_in_show .5s;
+    transition: margin-left .7s ease-in-out;
+}
+
+.navBar:hover .projets{
+    padding-left: 5.2ex;
+}
+
+.navBar:hover .experiences{
+    padding-left: 4.75ex;
+}
+
+@media screen and (min-width:1540px){
+    .oeuvres{
+        top: 26.25%;
+    }
+
+    .maquette{
+        top: 52.5%;
+    }
+}
