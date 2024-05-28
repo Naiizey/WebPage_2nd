@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Florian Guillou</title>
+        <meta author="Guillou Florian"/>
+        <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+        <link rel="icon" type="image/png" sizes="16x16" href="Icons/icon.png"/>
+        <link rel="stylesheet" href="mainLight.css"/>
+    </head>
+    <body>
+        <header class="header">
+            <a href="mainLight.html" class="name">
+                <p>Guillou Florian</p>
+            </a>
+            <nav class="nav" aria-labelledby="mainNav">
+                <ul>
+                    <a href="#Accueil"><li>Accueil</li></a>
+                    <a href="#Presentation"><li>Présentation</li></a>
+                    <a href="#Competences"><li>Compétences</li></a>
+                    <a href="#Projets"><li>Projets/Expériences</li></a>
+                    <a href="#Contacts"><li>Contacts</li></a>
+                </ul>
+            </nav>
+            <nav role='navigation' class="parameterMenu" aria-labelledby="parameters">
+                <div id="menuToggle">
+                  <input type="checkbox"/>
+                  <span>⚙</span>
+                  <ul id="menu">
+                    <a href="index.html" class="Parameters"><li>Sombre</li></a>
+                    <a href="Humour/Light/light.html" class="Parameters"><li>Humoristique</li></a>
+                    <a href="https://github.com/Naiizey/persoWebPage" target="_blank" class="Parameters"><li>Page GitHub</li></a>
+                  </ul>
+                </div>
+            </nav>
+            <nav role='navigation' class="respMenu" aria-labelledby="responsiveMenu">
+                <div id="menuToggle">
+                  <input type="checkbox"/>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <ul id="menu">
+                    <a href="#Accueil"><li>Accueil</li></a>
+                    <a href="#Presentation"><li>Présentation</li></a>
+                    <a href="#Projets"><li>Projets/Expériences</li></a>
+                    <a href="#Contacts"><li>Contacts</li></a>
+                    <a href="index.html" class="Parameters"><li class="Parameters">Sombre</li></a>
+                    <a href="Humour/Light/light.html"><li>Humoristique</li></a>
+                    <a href="https://github.com/Naiizey/persoWebPage" target="_blank"><li>Page GitHub</li></a>
+                  </ul>
+                </div>
+              </nav>
+        </header>
+        <main>
+            <img alt="Gif d'accueil" src="lightMainBg.png" target="_blank" class="img_acc" id="Accueil">
+            <h1>Florian Guillou</h1>
+            <h2>Développeur application logiciel</h2>
+            <div id="Presentation">
+                <img src="Icons/trombi.jpg" alt="Photographie"/>
+                <article>Actuellement en BUT (ex DUT) informatique à l'IUT de Lannion, je suis passionné depuis des années par l'informatique et notamment le développement, 
+                    je suis actuellement en recherche d'un alternance dans le domaine du développement d'applications logiciels.</article>
+                    <div class="BUT">
+                        <h3>BUT Informatique</h3>
+                        <p class="date">2021-2024</p>
+                        <ul>
+                            <li>Conception, développement et gestion de logiciels</li>
+                            <li>Développement et conception de sites web</li>
+                            <li>Gestion de bases de données</li>
+                        </ul>
+                        <a href="https://iut-lannion.univ-rennes1.fr/" target="_blank"><p class="place">IUT Lannion 22</p></a>
+                    </div>
+                    <div class="BAC">
+                        <h3>BAC général</h3>
+                        <p class="date">2021</p>
+                        <ul>
+                            <li>Mention Européenne</li>
+                            <li>Spécialités Mathématiques et Numériques & sciences informatiques</li>
+                        </ul>
+                        <a href="https://www.st-pierre-st-brieuc.bzh/" target="_blank"><p class="place">Lycée Saint-Pierre Saint-Brieuc 22</p></a>
+                    </div>
+            </div>
+            <div id="Competences">
+                <section class="devLogiciel">
+                    <h3>Développement Logiciel</h3>
+                    <img src="Competences/devLogiciel.png" alt="Développement Logiciel"/>
+                    <ul>
+                        <li><a href="https://docs.oracle.com/en/java/javase/17/docs/api/" target="_blank">Java</a><img src="Competences/java.png" alt="Icône Java" class="javaIco"/></li>
+                        <li><a href="https://devdocs.io/c/" target="_blank">C</a><img src="Competences/c.png" alt="Icône C" class="cIco"/></li>
+                        <li><a href="https://docs.python.org/3/" target="_blank">Python</a><img src="Competences/python.png" alt="Icône Python" class="pythonIco"/></li>
+                    </ul>
+                </section>
+                <section class="devWeb">
+                    <h3>Intégration WEB</h3>
+                    <img src="Competences/devWeb.png" alt="Intégation WEB"/>
+                    <ul>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML</a><img src="Competences/html5.png" alt="Icône HTML 5" class="htmlIco"/></li>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" target="_blank">CSS</a><img src="Competences/css.png" alt="Icône CSS" class="cssIco"/></li>
+                    </ul>
+                </section>
+                <section class="bdd">
+                    <h3>Bases de données et Conception</h3>
+                    <img src="Competences/bdd.png" alt="Bases de données et Conception"/>
+                    <ul>
+                        <li><a href="https://www.postgresql.org/docs/" target="_blank">SQL</a><img src="Competences/sql.png" alt="Icône SQL" class="sqlIco"/></li>
+                        <li><a href="https://www.uml.org/" target="_blank">UML</a><img src="Competences/uml.png" alt="Icône UML" class="umlIco"/></li>
+                    </ul>
+                </section>
+            </div>
+            <div id="Projets">
+                <div class="sitePerso">
+                    <img src="Projets/sitePerso.gif" alt="Gif Site Personnel"/>
+                    <h3>Site web Personnel</h3>
+                    <article>Développement entièrement en autonomie pour le plaisir d'un site web type vitrine. Site réalisé
+                        entièrement en HTML et CSS
+                    </article>
+                    <h4>Acquis :</h4>
+                    <p>Persévérence, autonomie, capacités de recherche</p>
+                </div>
+                <div class="parenthesePy">
+                    <img src="Projets/coupleParentheses.gif" alt="Gif Projet de gestion couple de Parenthèses"/>
+                    <h3>Gestion de couple de parenthèses</h3>
+                    <article>Développement en équipe en langage Python d'un programme destiné à la gestion de couples de parenthèses.
+                        Les indices des couples de parenthèses sont affichés entre parenthèses.
+                    </article>
+                    <h4>Acquis :</h4>
+                    <p>Travail d'équipe, logique</p>
+                </div>
+                <div class="jobEte">
+                    <img src="Projets/pvPordic.png" alt="Logo Point Vert"/>
+                    <h3>Assistant magasinier et récolte de céréales</h3>
+                    <article>Lors des horaires d'ouverture grand public, j'aidais à la tenu du magasin par le passage en caisse,
+                        le conseil des clients ou la mise en rayon. Lors de la fermeture au grand public, je récoltais les céréales
+                        des agriculteurs et remplissait à l'aide de silos les camions de transport afin d'évacuer les céréales.
+                    </article>
+                    <h4>Acquis :</h4>
+                    <p>Dynamisme, Patience, Contact</p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div id="Contacts">
+                <section class="linkedin">
+                    <img src="Contact/linkedin.png" alt="Icône linkedin" class="linkedinIco"/>
+                    <a href="https://www.linkedin.com/in/florian-guillou-6a1b2b232/" target="_blank">Mon Linkedin</a>
+                </section>
+                <section class="cv">
+                    <img src="Contact/cv.png" alt="Icône cv" class="cvIco"/>
+                    <a href="cv.pdf" target="_blank">Mon CV</a>
+                </section>
+            </div>
+        </footer>
+    </body>
+</html>
