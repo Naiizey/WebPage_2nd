@@ -11,30 +11,32 @@
         </div>
         <nav class="navBar" aria-label="navBar">
             <ul id="navList">
-                <li class="home">
-                    <a href="/">
-                        <img src="/Icons/Nav/homeW.png" alt="home" class="homeImg"/>
-                        <span class="homeText">Home</span>
-                    </a>
-                </li>
-                <li class="profile">
-                    <a href="/Pages/profile.php">
-                        <img src="/Icons/Nav/profileW.png" alt="profile" class="profileImg"/>
-                        <span class="profileText">Profile</span>
-                    </a>
-                </li>
-                <li class="projets">
-                    <a href="/Pages/projets.php">
-                        <img src="/Icons/Nav/projectsW.png" alt="projects" class="projectsImg"/>
-                        <span class="projectsText">Projects</span>
-                    </a>
-                </li>
-                <li class="experiences">
-                    <a href="/Pages/experiences.php">
-                        <img src="/Icons/Nav/experienceW.png" alt="experiences" class="experiencesImg"/>
-                        <span class="experiencesText">Experiences</span>
-                    </a>
-                </li>
+                <ul>
+                    <li class="home">
+                        <a href="/">
+                            <img src="/Icons/Nav/homeW.png" alt="home" class="homeImg"/>
+                            <span class="homeText">Home</span>
+                        </a>
+                    </li>
+                    <li class="profile">
+                        <a href="/Pages/profile.php">
+                            <img src="/Icons/Nav/profileW.png" alt="profile" class="profileImg"/>
+                            <span class="profileText">Profile</span>
+                        </a>
+                    </li>
+                    <li class="projets">
+                        <a href="/Pages/projets.php">
+                            <img src="/Icons/Nav/projectsW.png" alt="projects" class="projectsImg"/>
+                            <span class="projectsText">Projects</span>
+                        </a>
+                    </li>
+                    <li class="experiences">
+                        <a href="/Pages/experiences.php">
+                            <img src="/Icons/Nav/experienceW.png" alt="experiences" class="experiencesImg"/>
+                            <span class="experiencesText">Experiences</span>
+                        </a>
+                    </li>
+                </ul>
                 <li class="oeuvres">
                     <a href="/Pages/oeuvres.php">
                         <img src="/Icons/Nav/oeuvresW.png" alt="oeuvres" class="oeuvresImg"/>

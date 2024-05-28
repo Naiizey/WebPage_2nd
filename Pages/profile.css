@@ -91,4 +91,8 @@ p a{
     h2{
         left: 26.25%;
     }
+
+    main{
+        padding-left: 10%;
+    }
 }

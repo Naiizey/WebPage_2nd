@@ -19,7 +19,7 @@ body{
     position: relative;
     background-color: #262626;
     width: 15ex;
-    height: 18ex;
+    height: 13.5ex;
     z-index: 99;
 }
 
@@ -42,17 +42,37 @@ h1{
 .navBar{
     position: relative;
     width: 15ex;
-    height: 100vh;
-    top: -4ex; 
+    height: 90vh; 
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.navBar ul{
-    height: 85.5%;
+.navBar:before{
+    background-color: #262626;
+    content: "";
+    height: 3ex;
+    display: block;
+    z-index: 100;
+    position: relative;
+}
+
+.navBar > ul{
+    height: 95%;
     position: relative;
     top: 0ex;
     list-style: none;
     padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navBar > ul > ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5ex;
 }
 
 .navBar li{
@@ -62,7 +82,6 @@ h1{
     align-items: flex-start;
     width: 15ex;
     height: 8.75ex;
-    margin-bottom: 2ex;
 }
 
 .navBar img{
@@ -88,14 +107,6 @@ h1{
 .home{
     position: absolute;
     z-index: 100;
-}
-
-.oeuvres{
-    top: 17%;
-}
-
-.maquette{
-    top: 34%;
 }
 
 .navBar:hover{
@@ -129,14 +140,4 @@ h1{
 
 .navBar:hover .experiences{
     padding-left: 4.75ex;
-}
-
-@media screen and (min-width:1540px){
-    .oeuvres{
-        top: 26.25%;
-    }
-
-    .maquette{
-        top: 52.5%;
-    }
 }
